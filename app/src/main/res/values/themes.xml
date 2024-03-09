@@ -5,5 +5,5 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Madlab22" parent="Base.Theme.Madlab22" />
+    <style name="Theme.madlab22" parent="Base.Theme.Madlab22" />
 </resources>
