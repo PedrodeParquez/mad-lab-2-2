@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         characterViewModel = ViewModelProvider(this).get(RickAndMortyViewModel::class.java)
 
-        CoroutineScope(Dispatchers.Default).launch {
+        CoroutineScope(Dispatchers.Default).launch{
             characterViewModel.retrofitAPI()
         }
 
